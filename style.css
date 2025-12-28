@@ -1,0 +1,43 @@
+body {
+  background: #0b0f1a;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container {
+  margin-top: 120px;
+}
+
+h1 {
+  color: #4da6ff;
+}
+
+.box {
+  margin: 20px;
+}
+
+a {
+  color: #4da6ff;
+  text-decoration: none;
+}
+
+button {
+  padding: 12px 30px;
+  font-size: 16px;
+  background: #4da6ff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  color: black;
+}
+
+button:disabled {
+  background: gray;
+  cursor: not-allowed;
+}
+
+.legal {
+  padding: 30px;
+  text-align: left;
+}
